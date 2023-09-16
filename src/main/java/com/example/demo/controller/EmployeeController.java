@@ -26,7 +26,7 @@ public class EmployeeController {
 	
 	@PostMapping("/saveEmployee")
 	public String saveEmployee(@RequestBody Employee employee) {
-		repository.save(employee);
+		repository.save(employee);		
 		return "Employee Saved....";
 	}
 	
