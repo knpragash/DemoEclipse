@@ -33,5 +33,5 @@ public class Employee {
 	@OneToOne
 	@JoinColumn(name="dept_id")
 	private Department dept;
-	
+	 
 }

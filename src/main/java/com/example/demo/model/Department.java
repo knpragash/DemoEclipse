@@ -26,5 +26,5 @@ public class Department {
 	
 	@OneToOne(mappedBy="dept")
 	private Employee emp;
-
+ 
 }
